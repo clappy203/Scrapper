@@ -1,0 +1,1 @@
+categories = ['shirt','phone','watch']
