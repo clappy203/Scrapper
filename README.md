@@ -18,7 +18,7 @@ The database, etsy-project2 - where the data is pushed to- is hosted on Heroku.
 
     database.py - For inserting data to db
 
-****Installation
+****Installation****
 
     pip install bs4
 
@@ -26,7 +26,7 @@ The database, etsy-project2 - where the data is pushed to- is hosted on Heroku.
 
     pip instal Sqlalchemy
 
-****Usage
+****Usage****
 
     The datascrapper.py takes in 2 parameters, the keyword/item you want to scrape and the number of rows you want to scrape
 
@@ -34,10 +34,10 @@ The database, etsy-project2 - where the data is pushed to- is hosted on Heroku.
 
     The write_to_db.py file requires a write access to db
 
-****Sample code
+****Sample code****
 
     get_scraped_data('shirt',3000)
 
-****Development
+****Development****
 
     The project is currently completed but open to modifications
