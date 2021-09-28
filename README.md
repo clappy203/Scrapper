@@ -12,7 +12,7 @@ This is a web scrapping project that scrapes from an ecommerce website (Etsy) an
 
 The database, etsy-project2 - where the data is pushed to- is hosted on Heroku.
 
-T****he project contains the:
+****The project contains the:****
 
     data_scraper.py - For scraping data
 
