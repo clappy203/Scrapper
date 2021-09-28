@@ -12,28 +12,32 @@ This is a web scrapping project that scrapes from an ecommerce website (Etsy) an
 
 The database, etsy-project2 - where the data is pushed to- is hosted on Heroku.
 
-The project contains the:
+T****he project contains the:
 
-data_scraper.py - For scraping data
+    data_scraper.py - For scraping data
 
-database.py - For inserting data to db
+    database.py - For inserting data to db
 
-Installation
-pip install bs4
+****Installation
 
-pip install request
+    pip install bs4
 
-pip instal Sqlalchemy
+    pip install request
 
-Usage
-The datascrapper.py takes in 2 parameters, the keyword/item you want to scrape and the number of rows you want to scrape
+    pip instal Sqlalchemy
 
-The maximum number of items on an etsy page is 64, hence, you must scrape 64 and above.
+****Usage
 
-The write_to_db.py file requires a write access to db
+    The datascrapper.py takes in 2 parameters, the keyword/item you want to scrape and the number of rows you want to scrape
 
-Sample code
-get_scraped_data('shirt',3000)
+    The maximum number of items on an etsy page is 64, hence, you must scrape 64 and above.
 
-Development
-The project is currently completed but open to modifications
+    The write_to_db.py file requires a write access to db
+
+****Sample code
+
+    get_scraped_data('shirt',3000)
+
+****Development
+
+    The project is currently completed but open to modifications
