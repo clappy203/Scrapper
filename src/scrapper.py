@@ -34,12 +34,10 @@ def get_scraped_data(keyword: str, item_number: int):
           title = items.find("h3", class_="wt-mb-xs-0")
           titles.append(title.text.strip())
       
-
       for price in soup.find_all("div", class_="n-listing-card__price"):
           price = price.find("span", class_="currency-value")
           prices.append(price.text)
    
-
       for image in soup.find_all("img"):
           images.append(image.get('src')) 
 
