@@ -14,7 +14,7 @@ The database, etsy-project2 - where the data is pushed to- is hosted on Heroku.
 
 ****The project contains the:****
 
-    data_scraper.py - For scraping data
+    scraper.py - For scraping data
 
     database.py - For inserting data to db
 
@@ -24,7 +24,7 @@ The database, etsy-project2 - where the data is pushed to- is hosted on Heroku.
 
     pip install request
 
-    pip instal Sqlalchemy
+    pip install Sqlalchemy
 
 ****Usage****
 
@@ -32,7 +32,7 @@ The database, etsy-project2 - where the data is pushed to- is hosted on Heroku.
 
     The maximum number of items on an etsy page is 64, hence, you must scrape 64 and above.
 
-    The write_to_db.py file requires a write access to db
+    The database.py file requires a write access to db
 
 ****Sample code****
 
