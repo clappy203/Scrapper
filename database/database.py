@@ -76,7 +76,9 @@ def join_and_export():
     db = connect_engine()
     engine = create_engine(db_host, echo= False)
   
-    query = engine.execute("select categories.category, etsy_products.title, etsy_products.prices, etsy_products.url_to_item, etsy_products.url_of_image from etsy_products LEFT JOIN categories on etsy_products.category = categories.category")
+    query = engine.execute("""select categories.category, etsy_products.title, etsy_products.prices, 
+                            etsy_products.url_to_item, etsy_products.url_of_image 
+                           from etsy_products LEFT JOIN categories on etsy_products.category = categories.category""")
     print('table created successfully')
     df = pd.DataFrame(query.fetchall(),columns=query.keys())
     df.to_csv("C:\\Users\\hp\\Documents\\Scrapper\\results_csv\\joned_data_etsy.csv", index= False)
