@@ -1,6 +1,7 @@
 # Web Scraper
 
-This is a web scrapping project that scrapes from an ecommerce website (Etsy) and saves to database. This website sells different varieties of items, we will be accessing individual items by keyword and scrape the:
+This is a web scrapping project that scrapes from an ecommerce website (Etsy) and saves to database.
+This website sells different varieties of items, we will be accessing individual items by keyword and scrape the:
 
     - title
 
