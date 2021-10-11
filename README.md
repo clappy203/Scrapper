@@ -29,7 +29,8 @@ The database, etsy-project2 - where the data is pushed to- is hosted on Heroku.
 
 ****Usage****
 
-    The datascrapper.py takes in 2 parameters, the keyword/item you want to scrape and the number of rows you want to scrape
+    The datascrapper.py takes in 2 parameters, the keyword/item you want to scrape 
+    and the number of rows you want to scrape
 
     The maximum number of items on an etsy page is 64, hence, you must scrape 64 and above.
 
